@@ -1,0 +1,60 @@
+body {
+    font-family: sans-serif;
+}
+
+.regular-text {
+    font-size: 16px;
+    line-height: 26px;
+    color: #1F3F68;
+}
+
+.large-header {
+    font-size: 64px;
+    color: #1F3F68;
+}
+
+.big-header {
+    font-weight: 500;
+    font-size: 44px;
+    text-align: center;
+}
+
+.medium-header {
+    font-size: 36px;
+    text-align: center;
+}
+
+.small-header {
+    font-size: 20px;
+    line-height: 30px;
+    color: #1F3F68;
+}
+
+.online-services {
+    list-style-type: none;
+}
+
+.form__label {
+    font-size: 14px;
+    line-height: 20px;
+    color: #1F3F68;
+}
+
+.form__field {
+    border: 1px solid #356EAD;
+    box-sizing: border-box;
+    border-radius: 10px;
+    opacity: 0.4;
+}
+
+.form__submit {
+    background: #5A98D0;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
