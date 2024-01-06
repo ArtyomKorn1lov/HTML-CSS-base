@@ -7,30 +7,81 @@
     <title>Document</title>
 </head>
 <body>
-    <header>
-        <a href="index.html">Главная</a>
-        <a href="contacts.html">Контакты</a>
+    <!-- Хедер -->
+    <header class="header">
+        <div class="header__container">
+            <!-- Меню сайта -->
+            <div class="main-menu">
+                <a href="index.html">Home</a>
+                <a href="contacts.html">Contacts</a>
+            </div>
+            <div class="home-banner">
+                <!-- h1 из дз 1 -->
+                <h1 class="large-header">New header h1!</h1>
+                <!-- Параграф с произвольным текстом -->
+                <p class="regular-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio molestias quos quae sapiente quis. Beatae nostrum inventore tenetur expedita voluptate illo. Reiciendis, repellat? Natus incidunt provident rem eos molestias repellat?</p>
+            </div>
+        </div>
     </header>
-    <h1 class="large-header">New header h1!</h1>
-    <p class="regular-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio molestias quos quae sapiente quis. Beatae nostrum inventore tenetur expedita voluptate illo. Reiciendis, repellat? Natus incidunt provident rem eos molestias repellat?</p>
-    <h3 class="medium-header">New header h3!</h3>
-    <h4 class="small-header">New header h4 on page!</h4>
-    <p class="regular-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni dignissimos voluptatem illo dicta quam quod.</p>
-    <h3 class="medium-header">Second header h3!</h3>
-    <p class="regular-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni dignissimos.</p>
-    <h3 class="medium-header">Third header h3!</h3>
-    <p class="regular-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni dignissimos.</p>
-    <hr>
-    <footer>
-        <h3 class="medium-header">Lorem, ipsum dolor.</h3>
-        <p class="regular-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo, quidem!</p>
+    <!-- Основная часть сайта -->
+    <div class="page">
+        <div class="helper-block">
+            <div class="helper-block__title">
+                <!-- h3 из дз 1 -->
+                <h3 class="medium-header">New header h3!</h3>
+            </div>
+            <div class="helper-list">
+                <div class="helper-list__element">
+                    <!-- h4 из дз 1 -->
+                    <h4 class="small-header">New header h4 on page!</h4>
+                    <!-- параграф с произвольным текстом -->
+                    <p class="regular-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni dignissimos.</p>
+                </div>
+                <div class="helper-list__element">
+                    <!-- h4 из дз 1 -->
+                    <h4 class="medium-header">Second header h3!</h4>
+                    <!-- параграф с произвольным текстом -->
+                    <p class="regular-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni dignissimos.</p>
+                </div>
+                <div class="helper-list__element">
+                    <!-- h4 из дз 1 -->
+                    <h4 class="medium-header">Third header h3!</h4>
+                    <!-- параграф с произвольным текстом -->
+                    <p class="regular-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni dignissimos.</p>
+                </div>
+            </div>
+        </div>
+        <div class="fineshed-include-area">
+            <!-- параграф с произвольным текстом на 15 слов -->
+            <p class="regular-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni dignissimos voluptatem illo dicta quam quod.</p>
+        </div>
+    </div>
+    <!-- Футер -->
+    <footer class="footer">
+        <div class="footer__block-banner">
+            <div class="footer-banner">
+                <!-- h3 из дз 1 -->
+                <h3 class="medium-header">Lorem, ipsum dolor.</h3>
+                <!-- параграф с произвольным текстом -->
+                <p class="regular-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo, quidem!</p>
+            </div>
+        </div>
+        <!-- hr из дз 1 -->
         <hr>
-        <ul>
-            <li><p>Lorem ipsum dolor sit amet.</p></li>
-            <li><a href="tel:79088888888">+7(908)-888-88-88</a><br></li>
-            <li><a href="mailto:mail@mail.ru">mail@mail.ru</a></li>
-        </ul>
-        <p class="regular-text">"Все права защищены"</p>
+        <div class="prolog">
+            <!-- список дз 2 Тект, номер, эл почта -->
+            <ul class="footer-contacts">
+                <li class="footer-contacts__element">
+                    <span>Lorem ipsum dolor sit amet.</span>
+                </li>
+                <li class="footer-contacts__element"><a href="tel:79088888888">+7(908)-888-88-88</a><br></li>
+                <li class="footer-contacts__element"><a href="mailto:mail@mail.ru">mail@mail.ru</a></li>
+            </ul>
+            <div class="righ-reserved-container">
+                <!-- параграф все права защищены -->
+                <p class="regular-text">All right reserverd.</p>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
