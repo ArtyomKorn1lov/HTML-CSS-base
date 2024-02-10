@@ -1,3 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
 body {
     font-family: sans-serif;
 }
@@ -8,10 +18,16 @@ body {
     color: #1F3F68;
 }
 
+.regular-text_banner {
+    width: 425px;
+}
+
 .large-header {
+    width: 510px;
     font-size: 64px;
     color: #1F3F68;
 }
+
 
 .big-header {
     font-weight: 500;
@@ -30,8 +46,44 @@ body {
     color: #1F3F68;
 }
 
+/* Блоки главной страницы */
+.main-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.what-we-do-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.what-we-do-list__element {
+    width: 359px;
+}
+
+.footer__block-banner {
+    width: 340px;
+}
+
+.footer-contacts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Блоки страницы контактов */
 .online-services {
     list-style-type: none;
+}
+
+.contacts {
+    display: flex;
+    justify-content: space-between;
+}
+
+.yandex-map {
+    width: 100%;
 }
 
 .form__label {
