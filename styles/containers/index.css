@@ -1,0 +1,15 @@
+@import "what-we-do.css";
+@import "our-finished.css";
+
+.online-services {
+    list-style-type: none;
+}
+
+.contacts {
+    display: flex;
+    justify-content: space-between;
+}
+
+.yandex-map {
+    width: 100%;
+}

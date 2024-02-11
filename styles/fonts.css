@@ -1,0 +1,78 @@
+.regular-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #1F3F68;
+}
+
+.regular-text_banner {
+    width: 425px;
+}
+
+.large-header {
+    width: 510px;
+    font-size: 64px;
+    line-height: 74px;
+    font-weight: 300;
+    color: #1F3F68;
+    margin-bottom: 32px;
+}
+
+.big-header {
+    font-weight: 500;
+    font-size: 44px;
+    text-align: center;
+}
+
+.medium-header {
+    font-size: 36px;
+    line-height: 46px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.small-header {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #1F3F68;
+}
+
+.small-header_what-we-do {
+    margin-bottom: 14px;
+}
+
+.learn-more {
+    color: #5A98D0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.learn-more::after {
+    content: url("../assets/Vector.svg");
+    width: 15.12px;
+    height: 14.63px;
+    margin-left: 24px;
+}
+
+.our-finished-project  .regular-text {
+    color: #222222;
+    margin-bottom: 64px;
+}
+
+.our-finished-project__text {
+    position: absolute;
+    top: 64px;
+    right: 64px;
+    color: #FFFFFF;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 46px;
+    letter-spacing: 5%;
+}
+
+.our-finished-project__text_left {
+    top: 32px;
+    left: 32px;
+}
