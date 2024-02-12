@@ -24,14 +24,14 @@
 .home-icon {
     width: 45.58px;
     height: 48px;
-    background-image: url("../assets/navigation.svg");
+    background-image: url("../../assets/navigation.svg");
     background-repeat: no-repeat;
 }
 
 .contacts-icon {
     width: 33.46px;
     height: 38px;
-    background-image: url("../assets/address-book-solid.svg");
+    background-image: url("../../assets/address-book-solid.svg");
     background-repeat: no-repeat;
 }
 
@@ -39,23 +39,20 @@
     display: flex;
     padding-top: 107px;
     padding-bottom: 53px;
-    justify-content: space-between;
+    background-image: url("../../assets/illustration.svg");
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 
 .home-banner__text-box {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-}
-
-.home-banner__image {
-    background-image: url("../assets/illustration.svg");
-    background-repeat: no-repeat;
-    width: 553.68px;
-    height: 466.48px;
+    margin-bottom: 82px;
 }
 
 .regular-text_banner {
+    width: 425px;
     opacity: 0.6;
 }
 

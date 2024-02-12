@@ -1,0 +1,10 @@
+@media (max-width: 1170px) {
+    .what-we-do-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .what-we-do-list__element + .what-we-do-list__element {
+        margin-top: 32px;
+    }
+}

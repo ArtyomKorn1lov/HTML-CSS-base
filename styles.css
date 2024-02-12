@@ -22,7 +22,7 @@ u {
     text-decoration: none;
 }
 
-.content {
+.wrapper {
     display: flex;
     flex-direction: column;
     justify-content: center;

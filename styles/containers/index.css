@@ -1,5 +1,7 @@
 @import "what-we-do.css";
 @import "our-finished.css";
+@import "our-finished-media.css";
+@import "what-we-do-media.css";
 
 .online-services {
     list-style-type: none;

@@ -1,0 +1,14 @@
+@media (max-width: 767px) {
+    .our-finished-project__group {
+        flex-direction: column;
+    }
+
+    .our-finished-project__block_small {
+        max-width: none;
+    }
+
+    .our-finished-project__block_small + .our-finished-project__block_small {
+        margin-left: 0;
+        margin-top: 16px;
+    }
+}
