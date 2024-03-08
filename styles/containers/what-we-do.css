@@ -16,7 +16,9 @@
 
 .what-we-do-list {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 32px 16px;
 }
 
 .what-we-do-list__element {
