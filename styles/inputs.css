@@ -78,6 +78,7 @@
 }
 
 .form__submit {
+    text-transform: uppercase;
     padding-top: 23px;
     padding-bottom: 23px;
     border: none;

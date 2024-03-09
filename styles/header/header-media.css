@@ -1,12 +1,28 @@
+@media (max-width: 1171px) {
+    .header__container_contacts {
+        box-sizing: border-box;
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+}
+
 @media (max-width: 960px) {
     .home-banner {
         background-image: url("../../assets/illustration2.svg");
+    }
+
+    .header__contact-banner .regular-text {
+        max-width: 520px;
     }
 }
 
 @media (max-width: 767px) {
     .home-banner {
         background-image: none;
+    }
+
+    .header__contact-banner .regular-text {
+        max-width: 420px;
     }
 }
 
@@ -50,5 +66,26 @@
     .header {
         padding-left: 16px;
         padding-right: 16px;
+    }
+
+    .header__container_contacts {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .header_contacts {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
+    .header__contact-banner .big-header {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .header__contact-banner .regular-text {
+        font-size: 16px;
+        line-height: 30px;
+        max-width: 341px;
     }
 }

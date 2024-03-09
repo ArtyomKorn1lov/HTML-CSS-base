@@ -38,9 +38,21 @@ u {
     padding: 48px 32px 120px 32px;
 }
 
+@media (max-width: 960px) {
+    .page_contacts {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
 @media (max-width: 479px) {
     .page {
         padding-left: 16px;
         padding-right: 16px;
+    }
+
+    .page_contacts {
+        padding-left: 0;
+        padding-right: 0;
     }
 }
