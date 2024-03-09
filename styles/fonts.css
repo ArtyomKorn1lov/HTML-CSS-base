@@ -72,3 +72,38 @@
     top: 32px;
     left: 32px;
 }
+
+.header__contact-banner .big-header {
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.header__contact-banner .regular-text {
+    text-align: center;
+    max-width: 780px;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.uppercase-text {
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+.c-phones__link {
+    color: #1F3F68;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 26px;
+    opacity: 0.6;
+}
+
+.online-services__link {
+    color: #1F3F68;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 26px;
+    opacity: 0.6;
+}

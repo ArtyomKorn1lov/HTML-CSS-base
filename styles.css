@@ -37,3 +37,10 @@ u {
     align-items: center;
     padding: 48px 32px 120px 32px;
 }
+
+@media (max-width: 479px) {
+    .page {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+}

@@ -59,3 +59,21 @@
 .regular-text_banner + .primary-button {
     margin-top: 72px;
 }
+
+.header_contacts {
+    flex-direction: column;
+    align-items: center;
+    background: transparent;
+    padding: 0;
+}
+
+.header__contact-banner {
+    width: 100%;
+    padding: 50px 0;
+    background-image: url("../../assets/contact-banner.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
