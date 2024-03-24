@@ -2,9 +2,10 @@
 
 @font-face {
     font-family: 'Roboto';
-    src: url("assets/Roboto/Roboto-Regular.ttf");
+    src: url("assets/Roboto/Roboto-Regular.woff");
     font-weight: normal;
     font-style: normal;
+    font-display: fallback;
 }
 
 * {
@@ -14,6 +15,8 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #1F3F68;
     background: rgb(255, 255, 255);
 }
 

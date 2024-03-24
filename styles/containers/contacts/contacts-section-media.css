@@ -13,6 +13,13 @@
     }
 }
 
+@media (max-width: 568px) {
+    .contacts__form {
+        box-shadow: none;
+        background: transparent;
+    }
+}
+
 @media (max-width: 479px) {
     .contacts__form {
         padding: 36px;

@@ -1,4 +1,9 @@
 @media (max-width: 1171px) {
+    .home-banner__image {
+        width: 370px;
+        height: 328px;
+    }
+
     .header__container_contacts {
         box-sizing: border-box;
         padding-left: 32px;
@@ -7,7 +12,14 @@
 }
 
 @media (max-width: 960px) {
+    .home-banner__image {
+        display: none;
+    }
+
     .home-banner {
+        background-size: 302px;
+        background-repeat: no-repeat;
+        background-position: bottom right;
         background-image: url("../../assets/illustration2.svg");
     }
 

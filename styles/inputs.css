@@ -1,29 +1,31 @@
 .primary-button {
+    cursor: pointer;
     padding: 15px 50px;
     border-radius: 10px;
     box-shadow: 5px 10px 20px 0px rgba(53, 110, 173, 0.2);
     background: rgb(90, 152, 208);
     color: rgb(255, 255, 255);
-    font-size: 16px;
     font-weight: 400;
     line-height: 26px;
     letter-spacing: 4%;
     text-align: center;
 }
 
+.primary-button:hover,
 .primary-button:active {
     background-color: #1F3F68;
 }
 
 .secondary-button {
+    cursor: pointer;
     background: #5A98D0;
     padding: 15px 80px;
     color: #FFFFFF;
-    font-size: 16px;
     font-weight: 400;
     line-height: 26px;
 }
 
+.secondary-button:hover,
 .secondary-button:active {
     background-color: #1F3F68;
 }

@@ -31,14 +31,21 @@
 }
 
 .our-finished-project__image {
+    filter: brightness(60%);
     width: 100%;
     border-radius: 10px;
+}
+
+.our-finished-project__image:hover,
+.our-finished-project__image:active {
+    filter: none;
 }
 
 .our-finished-project__group {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: stretch;
 }
 
 .our-finished-project__block + .our-finished-project__group {

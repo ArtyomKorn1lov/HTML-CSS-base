@@ -21,27 +21,38 @@
     align-items: center;
 }
 
+.main-menu__icon {
+    background-repeat: no-repeat;
+}
+
+.main-menu__icon:hover,
+.main-menu__icon:active {
+    background-color: rgba(31, 63, 104, 0.1);
+    border-radius: 10px;
+}
+
 .home-icon {
     width: 45.58px;
     height: 48px;
     background-image: url("../../assets/navigation.svg");
-    background-repeat: no-repeat;
 }
 
 .contacts-icon {
     width: 33.46px;
     height: 38px;
     background-image: url("../../assets/address-book-solid.svg");
-    background-repeat: no-repeat;
+}
+
+.contacts-icon:hover,
+.contacts-icon:active {
+    padding: 2px;
 }
 
 .home-banner {
     display: flex;
+    justify-content: space-between;
     padding-top: 107px;
     padding-bottom: 53px;
-    background-image: url("../../assets/illustration.svg");
-    background-repeat: no-repeat;
-    background-position: bottom right;
 }
 
 .home-banner__text-box {
@@ -49,6 +60,13 @@
     flex-direction: column;
     align-items: flex-start;
     margin-bottom: 82px;
+}
+
+.home-banner__image {
+    object-fit: cover;
+    align-self: flex-end;
+    width: 554px;
+    height: 492px;
 }
 
 .regular-text_banner {
