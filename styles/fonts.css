@@ -1,3 +1,8 @@
+a:not(.primary-button):not(.secondary-button):not(.learn-more):hover,
+a:not(.primary-button):not(.secondary-button):not(.learn-more):active {
+    color: #5A98D0;
+}
+
 .regular-text {
     font-weight: 400;
     line-height: 26px;
@@ -39,13 +44,12 @@
     font-size: 14px;
     font-weight: 400;
     line-height: 30px;
+    transition: none;
 }
 
 .learn-more:hover,
 .learn-more:active {
-    background-color: rgba(31, 63, 104, 0.1);
-    border-radius: 5px;
-    padding: 0 5px;
+    color: #1F3F68;
 }
 
 .learn-more::after {
@@ -53,6 +57,11 @@
     width: 15.12px;
     height: 14.63px;
     margin-left: 24px;
+}
+
+.learn-more:hover::after,
+.learn-more:active::after {
+    content: url("../assets/Vector_active.svg");
 }
 
 .our-finished-project .regular-text {

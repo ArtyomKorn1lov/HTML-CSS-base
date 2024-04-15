@@ -23,18 +23,18 @@
 
 .main-menu__icon {
     background-repeat: no-repeat;
-}
-
-.main-menu__icon:hover,
-.main-menu__icon:active {
-    background-color: rgba(31, 63, 104, 0.1);
-    border-radius: 10px;
+    transition: background-image 0.6s;
 }
 
 .home-icon {
     width: 45.58px;
     height: 48px;
     background-image: url("../../assets/navigation.svg");
+}
+
+.home-icon:hover,
+.home-icon:active {
+    background-image: url("../../assets/navigation_active.svg");
 }
 
 .contacts-icon {
@@ -45,7 +45,7 @@
 
 .contacts-icon:hover,
 .contacts-icon:active {
-    padding: 2px;
+    background-image: url("../../assets/address-book-solid_active.svg");
 }
 
 .home-banner {
